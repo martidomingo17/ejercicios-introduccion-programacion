@@ -11,7 +11,7 @@ int main() {
     cout << left << setw(12) << "Termino" << "Pi\n";
     cout << fixed << setprecision(8);
 
-    for (int i = 1; i <= 200000; ++i) {
+    for (int i = 1; i < 200000; ++i) {
         pi += signo * 4.0 / (2 * i - 1);
         signo = -signo;
         cout << left << setw(12) << i << pi << "\n";
