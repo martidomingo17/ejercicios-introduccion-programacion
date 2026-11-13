@@ -16,7 +16,7 @@ int main() {
     long double suma = 1;
     long double termino = 1;
     int i = 1;
-    while (i < terminos) {
+    while (i < terminos - 1) {
         termino *= x / i; // Calcula x^i/i! a partir del termino anterior.
         suma += termino;
         ++i;
